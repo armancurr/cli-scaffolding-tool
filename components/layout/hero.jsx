@@ -9,7 +9,7 @@ export default function Hero({ copiedStates, copyToClipboard }) {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-7xl md:text-8xl font-serif text-neutral-100 tracking-tight">
-              Better
+              Create
               <em>Curr</em>
             </h1>
             <p className="text-md md:text-md text-neutral-400 max-w-2xl mx-auto leading-relaxed">
@@ -23,7 +23,7 @@ export default function Hero({ copiedStates, copyToClipboard }) {
 
           <div className="flex flex-col gap-6 items-center max-w-2xl mx-auto">
             <CommandBlock
-              command="bunx create-better-curr@latest"
+              command="bunx create-curr@latest"
               id="hero-command"
               copied={copiedStates["hero-command"]}
               onCopy={copyToClipboard}

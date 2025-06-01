@@ -3,7 +3,7 @@ import "./globals.css";
 import { funnSans, geistMono, instrumentSerif } from "./fonts";
 
 export const metadata = {
-  title: "Better Curr - CLI scaffolding tool",
+  title: "Create Curr - CLI scaffolding tool",
   icons: {
     icon: "/converted.png",
     shortcut: "/converted.png",
